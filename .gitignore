@@ -1,32 +1,17 @@
-# Prerequisites
-*.d
-
-# Compiled Object files
-*.slo
-*.lo
-*.o
-*.obj
-
-# Precompiled Headers
-*.gch
-*.pch
-
-# Compiled Dynamic libraries
-*.so
-*.dylib
-*.dll
-
-# Fortran module files
-*.mod
-*.smod
-
-# Compiled Static libraries
-*.lai
-*.la
-*.a
-*.lib
-
-# Executables
-*.exe
-*.out
-*.app
+obj
+libeasynet.a
+benchmark/obj
+benchmark/client
+benchmark/server
+benchmark/client-log.txt
+benchmark/server-log.tx
+examples/obj
+examples/echo-client
+examples/echo-server
+examples/file-client
+examples/file-server
+examples/udp-client
+examples/udp-server
+test/obj
+test/log-test.txt
+test/easynet-unitest
