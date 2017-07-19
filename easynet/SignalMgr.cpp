@@ -22,7 +22,6 @@ std::unique_ptr<Socket> kSigNotifyUnixSocket;
 
 }
 
-//std::unique_ptr<SignalMgr> SignalMgr::signalMgr_;
 std::once_flag SignalMgr::initedFlag_;
 
 static void sigalHandler(int sig);
